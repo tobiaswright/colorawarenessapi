@@ -1,9 +1,10 @@
 {
+  "disabled": false,
   "bindings": [
     {
       "type": "httpTrigger",
       "direction": "in",
-      "webHookType": "genericJson",
+      "webHookType": "github",
       "name": "req"
     },
     {
